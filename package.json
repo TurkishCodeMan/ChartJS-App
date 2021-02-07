@@ -11,8 +11,10 @@
     "axios": "^0.21.1",
     "chart.js": "^2.9.4",
     "core-js": "^3.6.5",
+    "moment": "^2.29.1",
     "p5": "^1.2.0",
     "vue": "^2.6.11",
+    "vue-chartjs": "^3.5.1",
     "vue-papa-parse": "^2.0.0"
   },
   "devDependencies": {

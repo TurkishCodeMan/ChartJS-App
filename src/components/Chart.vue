@@ -33,7 +33,7 @@ export default {
           datasets: [
             {
               label: "Global Average Temperatures",
-              data: this.ys,
+              data: this.ys, //y axis
               fill: false,
 
               backgroundColor: "rgba(255, 99, 132, 0.2)",
@@ -43,6 +43,7 @@ export default {
           ],
         },
         options: {
+          responsive:true,
           scales: {
             yAxes: [
               {

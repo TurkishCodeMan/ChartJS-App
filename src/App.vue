@@ -1,6 +1,7 @@
 <template>
-  <body>
+  <body class="">
     <div id="app">
+      <app-temperature></app-temperature>
       <app-chart></app-chart>
       
     </div>
@@ -9,15 +10,22 @@
 
 <script>
 
+import MyChart from "./components/MyChart";
 import Chart from "./components/Chart"
 export default {
   name: "App",
   components:{
    
-    appChart:Chart
+    appChart:MyChart,
+    appTemperature:Chart
   }
 };
 </script>
 
 <style>
+ body{
+   min-height: 100vh;
+   background: rgb(230, 230, 230);
+ }
+
 </style>
